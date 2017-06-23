@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<title>Contacts</title>
+  	<meta charset="utf-8">
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/superfish.js"></script>
+    <script type="text/javascript">
+		$(function(){
+			function equalHeight(group) {
+				var tallest = 0;
+				group.each(function() {
+					var thisHeight = $(this).height();
+					if(thisHeight > tallest) {
+						tallest = thisHeight;
+					}
+				});
+				group.height(tallest);
+			}	
+			equalHeight($(".box-1 .inner"));
+		})
+	</script>
+<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<link rel="stylesheet" href="css/ie.css"> 
+<![endif]-->
+</head>
+<body>
+<!-- Header -->
+<header>
+    <div class="inner">
+        <h1 class="logo"><a href="home.html">Codorniz</a></h1>
+        <div class="fright">
+            <div class="header-meta">
+                <form id="search-form" method="post">
+                    <input type="text" onblur="if(this.value=='Arial'){this.value='search'}" onfocus="if(this.value=='search'){this.value=''}" value="search" name="search">
+                    <a class="search-form-submit" onclick="document.getElementById('search-form').submit()"></a>
+                </form>
+                <div class="col-elem">
+                    ¿Desea contactarnos?<br>
+                    Llamenos: Fijo: +57(1) 4614252 
+                    <span class="phone">
+                        Celular: 321 4524937
+                    </span>
+                </div>
+            </div>
+            <nav>
+                <ul class="sf-menu">
+                    <li class="current"><a href="home.html">Inicio</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li>
+                        <a href="services.html">Servicios</a>
+                        <ul>
+                            <li><a href="#">Producción de Huevos</a></li>
+                            <li><a href="#">Recolección</a></li>
+                            <li>
+                                <a href="#">Empaque</a>
+                                <ul>
+                                    <li><a href="#">Materiales</a></li>
+                                    <li><a href="#">Sello</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Servicio de transporte y entrega</a></li>
+                            <li><a href="#">Cobro</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacts.html">Contactenos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="clear"></div>
+    </div>
+</header>
+<!-- Content -->
+<section id="content"><div class="ic"></div>
+    <div class="container_24">
+        <div class="indent-bot-2 boxes-bg">
+            <article class="grid_6">
+                <div class="box-1">
+                    <div class="inner">
+                        <h3>Microchip implant</h3>
+                        <p>
+                            Vivamus hendrerit mauris ut dui. gravida ut viverra lectus tincidunt. Cras mattis tempor eros nec tristique. 
+                        </p>
+                        <div class="btn-container">
+                            <div class="button-box">
+                                <a href="#" class="button">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="grid_6">
+                <div class="box-1">
+                    <div class="inner">
+                        <h3>Ultrasound</h3>
+                        <p class="p0">
+                            <strong class="str-1">
+                                Vivamus hendrerit mauris ut dui gravida ut viverra
+                            </strong>
+                        </p>
+                        <p>
+                            Cras mattis tempor eros nec tristique. Sed sed felis arcu, vel vehicula augue. Maecenas faucibus sagittis. cursus.
+                        </p>
+                        <div class="btn-container">
+                            <div class="button-box">
+                                <a href="#" class="button">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="grid_6">
+                <div class="box-1">
+                    <div class="inner">
+                        <h3>Transport service</h3>
+                        <p>
+                            Vivamus hendrerit mauris ut dui. gravida ut viverra lectus tincidunt. Cras mattis tempor eros nec tristique.
+                        </p>
+                        <div class="btn-container">
+                            <div class="button-box">
+                                <a href="#" class="button">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="grid_6">
+                <div class="box-1">
+                    <div class="inner">
+                        <h3>Vaccinations</h3>
+                        <p class="p0">
+                            <strong class="str-1">
+                                Vivamus hendrerit mauris ut gravida ut viverra  
+                            </strong>
+                        </p>
+                        <p>
+                            Cras mattis tempor eros nec tristique. Sed sed felis arcu, vel vehicula augue. 
+                        </p>
+                        <div class="btn-container">
+                            <div class="button-box">
+                                <a href="#" class="button">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="clear"></div>
+        </div>
+        <div class="wrapper">
+        	<article class="grid_7 suffix_1">
+            	<h2>Información de contacto:</h2>
+                <div class="map-container img-box">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.8154513127947!2d-72.70182923599893!3d6.669776323297822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e690767b4eb6273%3A0xd5fa8a859fd184a1!2sEnciso%2C+Santander+Department%2C+Colombia!5e0!3m2!1sen!2sus!4v1496983399883" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <strong class="str-4">Huevos de codorniz Enciso</strong>
+                <dl class="adress">
+                    <strong class="str-3">Sandra Rodríguez</strong>
+                	<dt>Municipio de Enciso- Santander vereda plan de llano</dt>
+                    <dd><span>Teléfono:</span><strong>+57(1) 4614252</strong></dd>
+                    <dd><span>Celular</span><strong class="str-3">321-4524937</strong></dd>
+                    <dd><span>Email:</span><a href="#">huevoscodornizenciso@gmail.com</a></dd>
+                </dl>  
+            </article>
+            <article class="grid_16">
+            	<h2>Formulario de contacto:</h2>
+                <form id="contact-form" method="post">
+                  <fieldset>
+                    <label class="name">
+                        <span>Nombre completo:</span>
+                        <input type="text">
+                    </label>
+                    <label class="email">
+                      <span>Email:</span>
+                      <input type="email">
+                    </label>
+                    <label class="message">
+                      <span>Mensaje</span>	
+                      <textarea></textarea>
+                    </label>
+                    <div class="btns">
+                        <a class="link" onClick="document.getElementById('contact-form').reset()">Clear</a>
+                        <a class="link" onClick="document.getElementById('contact-form').submit()">Send</a> 
+                    </div>
+                  </fieldset>
+                </form>
+            </article>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer>
+    <div class="copyright">
+        &copy; 2012 <strong class="footer-logo">Pet clinic</strong>
+        <div><a rel="nofollow" href="http://www.templatemonster.com">Website Template</a> by TemplateMonster.com</div>
+		<div>Busque m&aacute;s plantillas web gratis <a href="http://www.mejoresplantillasgratis.es" target="_blank">en MPG.es</a>.</div>
+    </div>
+    <ul class="social-list">
+    	<li><a href="#"><img src="images/social-link-1.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/social-link-2.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/social-link-3.jpg" alt=""></a></li>
+        <li><a href="#"><img src="images/social-link-4.jpg" alt=""></a></li>
+    </ul>
+</footer>
+</body>
+</html>
