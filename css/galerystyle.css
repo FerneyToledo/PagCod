@@ -26,10 +26,13 @@ and open the template in the editor.
     width: 150px;
     height: 100px;
 }
-
 .modal {
+   display: none; 
+}
+.modal:target {
+    display: block;
     position: fixed;
-    /*background: rgba(0,0,0,0.8);*/
+    background: rgba(0,0,0,0.7);
     top: 0;
     left: 0;
     width: 100%;
