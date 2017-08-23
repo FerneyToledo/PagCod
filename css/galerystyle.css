@@ -57,7 +57,7 @@ and open the template in the editor.
     font-size: 40px;
     text-decoration: none;
     margin: 0 10px;
-    flex-shrink: 2;
+    flex-shrink: 3;
 }
 
 .imagen a:nth-child(2){
