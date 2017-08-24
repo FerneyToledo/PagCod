@@ -52,20 +52,7 @@ and open the template in the editor.
     align-items: center;
 }
 
-.imagen a {
-    color: #fff;
-    font-size: 40px;
-    text-decoration: none;
-    margin: 0 10px;
-    flex-shrink: 3;
-}
 
-.imagen a:nth-child(2){
-    margin: 0;
-    height: 100%;
-    
-  
-}
 .imagen img {
     width: 500px;
     height: 100%;
@@ -87,4 +74,21 @@ and open the template in the editor.
     border-radius: 40px;
     line-height: 25px;
        
+}
+
+.grid_8 {
+    display: block;    
+}
+
+.imagen a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+    flex-shrink: 3;
+}
+
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
 }
